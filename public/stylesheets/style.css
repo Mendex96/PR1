@@ -1,8 +1,66 @@
+/* Estilos personalizados para una apariencia limpia */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
 }
 
-a {
-  color: #00B7FF;
+.navbar {
+  border-bottom: 2px solid #343a40;
 }
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+
+.table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #343a40;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
